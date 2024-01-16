@@ -17,11 +17,9 @@ async {
 }
 class first extends StatefulWidget {
   const first({super.key});
-
   @override
   State<first> createState() => _firstState();
 }
-
 class _firstState extends State<first> {
   Future<UserCredential> signInWithGoogle() async {
     // Trigger the authentication flow
